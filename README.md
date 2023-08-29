@@ -20,42 +20,53 @@ Importantly, both "mint" and "burn" functions include "require" statements to va
 
 Remix is a powerful and user-friendly web-based IDE (Integrated Development Environment) for writing, testing, and deploying Solidity smart contracts on the Ethereum blockchain. It provides a range of features to streamline your smart contract development process. Here's a step-by-step guide to help you get started with Remix:
 
+```
 1. Accessing Remix:
 
 Open your web browser and navigate to Remix's official website: https://remix.ethereum.org/.
 Remix runs entirely in your browser, so there's no need to install anything locally.
+
 2. Creating a New File:
 
 On the Remix interface, you'll see a file explorer on the left. Click the "+" button to create a new file.
 Name the file with the .sol extension (e.g., MyContract.sol) to indicate it's a Solidity source file.
+
 3. Writing Your Contract:
 
 In the new file, you can start writing your Solidity smart contract. Remix offers syntax highlighting and auto-completion to help you write code efficiently.
+
 4. Compiling the Contract:
 
 After writing your contract, click the "Solidity Compiler" tab on the right panel.
 Click the "Compile" button to compile your contract. Any compilation errors will be displayed here.
+
 5. Deploying the Contract:
 
 In the "Deploy & Run Transactions" tab (also on the right panel), select the contract you want to deploy from the dropdown.
 Choose the environment you want to deploy to (JavaScript VM, Injected Web3, etc.).
 Click the "Deploy" button. Remix will deploy your contract and provide you with a transaction receipt.
+
 6. Interacting with the Contract:
 
 After deploying, you'll see the contract's interface, which lists its functions and variables.
 You can interact with the contract by calling its functions and providing any required parameters.
 Use the "Transact" button to execute functions that modify the blockchain state (e.g., changing data).
+
 7. Debugging and Testing:
 
 Remix offers built-in debugging tools. You can set breakpoints, step through code execution, and inspect variables.
 The "Debugger" tab in the right panel lets you access these features.
+
 8. Saving and Sharing:
 
 Remix automatically saves your code as you work. You can also manually save using the floppy disk icon.
 Remix generates a shareable URL that captures your current work. You can use this URL to share your contract and its state with others.
+
 9. Using Plugins:
 
 Remix supports various plugins that enhance your development experience. You can find them under the "Plugins" tab on the left.
+
 10. Importing Existing Contracts:
 
 If you have existing Solidity contracts, you can import them into Remix by copying and pasting the code or uploading the file.
+```
