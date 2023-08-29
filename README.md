@@ -69,4 +69,5 @@ Remix supports various plugins that enhance your development experience. You can
 10. Importing Existing Contracts:
 
 If you have existing Solidity contracts, you can import them into Remix by copying and pasting the code or uploading the file.
+
 ```
